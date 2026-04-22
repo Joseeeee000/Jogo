@@ -36,12 +36,17 @@ accept={
 ]
 }
 
+[layer_names]
+
+2d_render/layer_1="CharacterBody2D"
+2d_render/layer_2="Area2D"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=0
+textures/canvas_textures/default_texture_filter=3
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
