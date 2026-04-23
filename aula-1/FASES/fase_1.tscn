@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://c44txjag37ssi"]
 
 [ext_resource type="PackedScene" uid="uid://bflhmqva0u66g" path="res://FASES/Diego.tscn" id="1_srhhd"]
-[ext_resource type="Texture2D" uid="uid://yo0gglvb3juj" path="res://background/_Complete_static_BG_(288 x 208).png" id="2_67svw"]
-[ext_resource type="PackedScene" uid="uid://blh54baow57m3" path="res://FASES/area_2d.tscn" id="3_a0jyw"]
+[ext_resource type="Texture2D" uid="uid://bnb4y7db644wy" path="res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg" id="2_67svw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67svw"]
 size = Vector2(3246, 20)
@@ -13,7 +12,7 @@ size = Vector2(41, 838)
 [node name="fase1" type="Node2D" unique_id=2127733230]
 
 [node name="CharacterBody2D" parent="." unique_id=204483482 instance=ExtResource("1_srhhd")]
-position = Vector2(21, 552)
+position = Vector2(21, 387)
 
 [node name="Camera2D" parent="CharacterBody2D" index="1" unique_id=90565087]
 limit_left = 5
@@ -25,16 +24,17 @@ motion_scale = Vector2(0.1, 0.1)
 motion_mirroring = Vector2(1142, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=2015413509]
-position = Vector2(-12, -101)
-scale = Vector2(3.9652777, 3.6442306)
+position = Vector2(3, 7.000004)
+scale = Vector2(1.4807693, 1.5479167)
 texture = ExtResource("2_67svw")
 centered = false
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1498960410]
 visible = false
+position = Vector2(0, -1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1927281029]
-position = Vector2(1611, 609)
+position = Vector2(1611, 577)
 shape = SubResource("RectangleShape2D_67svw")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=22707005]
@@ -48,12 +48,4 @@ shape = SubResource("RectangleShape2D_a0jyw")
 position = Vector2(3255, 300)
 shape = SubResource("RectangleShape2D_a0jyw")
 
-[node name="Area2D" parent="." unique_id=1323174522 instance=ExtResource("3_a0jyw")]
-monitoring = false
-prox_fase = "fase"
-
-[node name="CollisionShape2D" parent="Area2D" index="0" unique_id=1388896990]
-position = Vector2(433, 519)
-
 [editable path="CharacterBody2D"]
-[editable path="Area2D"]

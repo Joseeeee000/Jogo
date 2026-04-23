@@ -251,10 +251,12 @@ tile_map_data = PackedByteArray("AABPABYAAgAEAAEAAABQABYAAgAFAAEAAABRABYAAgAFAAE
 tile_set = SubResource("TileSet_vyao0")
 
 [node name="Area2D" parent="." unique_id=1323174522 instance=ExtResource("4_malsh")]
+visible = false
 position = Vector2(3147, -135)
 prox_fase = "fase_1"
 
 [node name="CharacterBody2D" parent="." unique_id=204483482 instance=ExtResource("1_uvh7o")]
+z_index = 1
 position = Vector2(54, 479)
 
 [node name="TileMapLayer2" type="TileMapLayer" parent="." unique_id=81096494]
