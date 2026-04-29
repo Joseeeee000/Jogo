@@ -75,7 +75,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_d4t6f")
 }],
 "loop": true,
-"name": &"Andando",
+"name": &"anda",
 "speed": 15.0
 }, {
 "frames": [{
@@ -92,7 +92,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_lsg66")
 }],
 "loop": true,
-"name": &"Parado",
+"name": &"parado",
 "speed": 15.0
 }, {
 "frames": [{
@@ -100,7 +100,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_nd1lu")
 }],
 "loop": true,
-"name": &"Pular",
+"name": &"pula",
 "speed": 5.0
 }]
 
@@ -109,7 +109,6 @@ collision_mask = 3
 script = ExtResource("1_du4tx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=177183219]
-visible = false
 shape = SubResource("CapsuleShape2D_e2gow")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=90565087]
@@ -117,8 +116,8 @@ limit_left = 0
 limit_bottom = 650
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2110669783]
-position = Vector2(5, -6.0000005)
+position = Vector2(4, -5.0000005)
 scale = Vector2(1.21875, 1.2708334)
 sprite_frames = SubResource("SpriteFrames_acehn")
-animation = &"Parado"
-autoplay = "Parado"
+animation = &"pula"
+autoplay = "parado"

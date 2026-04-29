@@ -12,4 +12,4 @@ func _on_body_entered(_body: Node2D) -> void:
 
 func load_next_scene():
 
-	get_tree().change_scene_to_file("res://FASES/" + prox_fase + ".tscn")
+	get_tree().change_scene_to_file("res://FASES/" + "fase_1" + ".tscn")
