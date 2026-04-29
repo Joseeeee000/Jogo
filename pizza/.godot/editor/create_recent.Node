@@ -1,0 +1,12 @@
+TileMapLayer
+Button
+CollisionShape2D
+StaticBody2D
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+Area2D
+Parallax2D
+Camera2D
+AnimatedSprite2D
+CharacterBody2D
