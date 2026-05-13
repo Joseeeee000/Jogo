@@ -40,6 +40,9 @@ accept={
 
 2d_render/layer_1="CharacterBody2D"
 2d_render/layer_2="Area2D"
+2d_physics/layer_1="Diego"
+2d_physics/layer_2="block.mov(*)"
+2d_physics/layer_3="Area2D"
 
 [physics]
 

@@ -1,8 +1,9 @@
 TileMapLayer
-Button
 CollisionShape2D
-StaticBody2D
 Sprite2D
+AnimatableBody2D
+Button
+StaticBody2D
 ParallaxLayer
 ParallaxBackground
 Area2D
