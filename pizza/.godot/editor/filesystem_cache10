@@ -1,23 +1,27 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778669470
-Botões.tscn::PackedScene::5380627612918530926::1778669451::0::1::::<><><>0<>0<><>::uid://bfgi5i4c13pfg::::res://Control.gd
+::res://::1778679691
+Botões.tscn::PackedScene::5380627612918530926::1778679691::0::1::::<><><>0<>0<><>::uid://bfgi5i4c13pfg::::res://Control.gd
 Control.gd::GDScript::2750290943279763052::1778669451::0::1::::<>Control<><>0<>0<><>::
 diego.gd::GDScript::5786324481036226816::1778669451::0::1::::<>CharacterBody2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::5435431783351291684::1778669451::1778669471::1::::<><><>0<>0<>78d389abce5cf86667b46708cd7a0076<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://background/::1778669451
+animatable_body_2d.gd::GDScript::8278209221588200973::1778672364::0::1::::<>AnimatableBody2D<><>0<>0<><>::
+block.mov.tscn::PackedScene::8104058577692925376::1778676988::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
+block.mov.cima.tscn::PackedScene::2085562026538240357::1778678482::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
+::res://background/::1778679788
 _Complete_static_BG_(288 x 208).png::CompressedTexture2D::1714962508541746341::1778669451::1778669471::1::::<><><>0<>0<>d23a518489a704232477a3e7db1c4843<>res://.godot/imported/_Complete_static_BG_(288 x 208).png-b8fd8d57210c9c19178b0f9e4370327d.ctex::
+17973903.jpg::CompressedTexture2D::603208954251627511::1778679788::1778679794::1::::<><><>0<>0<>c85f28ac823cecf98141eac4ce05967e<>res://.godot/imported/17973903.jpg-f2e8ed5fb5561650a359055435f8f510.ctex::
 background.jpg::CompressedTexture2D::7446568120349103876::1778669451::1778669472::1::::<><><>0<>0<>4b85687fcd19d204742b2fc7ddb01ccc<>res://.godot/imported/background.jpg-f5a391353afe0b2edd1a4c9db31b7d83.ctex::
 Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg::CompressedTexture2D::3302745366055180592::1778669451::1778669471::1::::<><><>0<>0<>fea3969e1af89cd6498301f8155fe1f8<>res://.godot/imported/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg-f8bf9cf8e93fb2cc80064982b5020f3d.ctex::
-::res://FASES/::1778669451
+::res://FASES/::1778679691
 area_2d.gd::GDScript::8855814130740257252::1778669451::0::1::::<>Area2D<><>0<>0<><>::
 area_2d.tscn::PackedScene::3174821958986173636::1778669451::0::1::::<><><>0<>0<><>::uid://dyf272n0osl4o::::res://FASES/area_2d.gd
 Diego.gd::GDScript::9072098879764109659::1778669451::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Diego.tscn::PackedScene::2760520378502870928::1778669451::0::1::::<><><>0<>0<><>::uid://d2iue4om8tpwl::::res://FASES/Diego.gd<>uid://dbgi4qhdwiluw::::res://Sprite Pack 7/1 - Diego/Idle (32 x 48).png<>uid://bpqwole606ock::::res://Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://bxr2x5qabi8g::::res://Sprite Pack 7/1 - Diego/Jump (32 x 48).png
-fase.tscn::PackedScene::5341355331614351488::1778669451::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://dedf5hwwtkbq7::::res://background/background.jpg<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png<>uid://blh54baow57m3::::res://FASES/area_2d.tscn<>uid://dgtfx3l0qvtgo::::res://TileMap/House (112 x 96).png
+fase.tscn::PackedScene::5341355331614351488::1778679691::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://dedf5hwwtkbq7::::res://background/background.jpg<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png<>uid://blh54baow57m3::::res://FASES/area_2d.tscn<>uid://dgtfx3l0qvtgo::::res://TileMap/House (112 x 96).png<>uid://dnpwwp3netfm3::::res://block.mov.tscn<>uid://4yi5wtg5w4c4::::res://block.mov.cima.tscn
 fase_1.tscn::PackedScene::6869379956900710580::1778669451::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://bnb4y7db644wy::::res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg
 ::res://Sprite Pack 7/::1778669451
 LICENSE.txt::TextFile::-1::1778669451::0::1::::<><><>0<>0<><>::
-::res://Sprite Pack 7/1 - Diego/::1778669451
+::res://Sprite Pack 7/1 - Diego/::1778669471
 Blink (32 x 48).png::CompressedTexture2D::2523056568729467950::1778669451::1778669471::1::::<><><>0<>0<>f634acaabf47c08d8b0ba898da169237<>res://.godot/imported/Blink (32 x 48).png-f39a05b88207f6450c49b9376039997b.ctex::
 Crouching (32 x 32).png::CompressedTexture2D::3931522102455662493::1778669451::1778669471::1::::<><><>0<>0<>9a3df53b71f1b272ea42a084a38a0a39<>res://.godot/imported/Crouching (32 x 32).png-380c38b2f642dd81d4fa85d0a93dd4ea.ctex::
 Hurt (32 x 48).png::CompressedTexture2D::6308576773230493930::1778669451::1778669471::1::::<><><>0<>0<>840c0a42dbde640281e2b118b2c0c536<>res://.godot/imported/Hurt (32 x 48).png-fa7a48d8b066d2cc565437e7a237f4d9.ctex::
@@ -31,7 +35,7 @@ Shooting_while_jumping (48 x 48).png::CompressedTexture2D::4711822487780844539::
 Shooting_while_running (48 x 48).png::CompressedTexture2D::5133743700454974559::1778669451::1778669471::1::::<><><>0<>0<>46a3ed93f88a1b19a82e47b06e736b49<>res://.godot/imported/Shooting_while_running (48 x 48).png-6b3bb173dad5797d205b6d5cb8640719.ctex::
 Shooting_while_standing (48 x 48).png::CompressedTexture2D::8247410878502731255::1778669451::1778669471::1::::<><><>0<>0<>ca362020afaffdb176aa7905dcd601f6<>res://.godot/imported/Shooting_while_standing (48 x 48).png-aca714a0809609c7a9580c7847b0b3db.ctex::
 Standing (32 x 48).png::CompressedTexture2D::2214126129809025928::1778669451::1778669471::1::::<><><>0<>0<>47f4c7f5510f2ef7027a53a3dcae84bb<>res://.godot/imported/Standing (32 x 48).png-63d1e6d799de6d82f73e2d10ac4cb66e.ctex::
-::res://Sprite Pack 7/2 - Holly/::1778669451
+::res://Sprite Pack 7/2 - Holly/::1778669471
 Aerial_swing (64 x 64).png::CompressedTexture2D::2377104762139294352::1778669451::1778669471::1::::<><><>0<>0<>d34ad862a382257f09eb617d364a7b90<>res://.godot/imported/Aerial_swing (64 x 64).png-3f30c51944b7d6d096fe2bcdbda9b7fc.ctex::
 Blink (32 x 32).png::CompressedTexture2D::631850017932370702::1778669451::1778669471::1::::<><><>0<>0<>66c7d07ffc3b7be608e8d6b302660cb6<>res://.godot/imported/Blink (32 x 32).png-238002c115a0dfdfe700e8a98fe3d960.ctex::
 Ducking (32 x 32).png::CompressedTexture2D::9189046048586492536::1778669451::1778669471::1::::<><><>0<>0<>a4aa727a1b63a7357ee988329cf676aa<>res://.godot/imported/Ducking (32 x 32).png-4f2962755ff9a9fe265031e286c89b6a.ctex::
@@ -42,7 +46,7 @@ Idle (32 x 32).png::CompressedTexture2D::5508122157546268243::1778669451::177866
 Jump (32 x 32).png::CompressedTexture2D::7819659276334091254::1778669451::1778669471::1::::<><><>0<>0<>f8fdaf4ae2d4422d52c674da2927b2bf<>res://.godot/imported/Jump (32 x 32).png-839ff3620325c6c677a89629a33f4ecc.ctex::
 Running (32 x 32).png::CompressedTexture2D::33613757530965700::1778669451::1778669471::1::::<><><>0<>0<>6493185e9a3cf485a3ac28d4b38b0a41<>res://.godot/imported/Running (32 x 32).png-846dd6b46382bff899430ccbfdc77fd4.ctex::
 Standing (32 x 32).png::CompressedTexture2D::8961371175460777100::1778669451::1778669471::1::::<><><>0<>0<>672f8e327a963cac46890b815a8b9a34<>res://.godot/imported/Standing (32 x 32).png-04eebf7410e0f12b48ed76a9a09f7481.ctex::
-::res://Sprite Pack 7/3 - Gordon/::1778669451
+::res://Sprite Pack 7/3 - Gordon/::1778669471
 Aerial_swing (80 x 64).png::CompressedTexture2D::3516753721097131749::1778669451::1778669471::1::::<><><>0<>0<>4ec6ec79c9134fe09c1c899825005f07<>res://.godot/imported/Aerial_swing (80 x 64).png-8480a5849f4a258ee9b44f5a012d695f.ctex::
 Blink (48 x 48).png::CompressedTexture2D::8439342377459271737::1778669451::1778669471::1::::<><><>0<>0<>13ec5b3be4ee8c71bb7d5a07d169c3a8<>res://.godot/imported/Blink (48 x 48).png-c8f5ba3a546f5a0f8db5da1c1ca8d653.ctex::
 Combo_swings (80 x 64).png::CompressedTexture2D::5478178941710162113::1778669451::1778669471::1::::<><><>0<>0<>616b83e444c7fa7ffec1b5639d9c2af6<>res://.godot/imported/Combo_swings (80 x 64).png-74a7cb992a9d906b31ae26f71ef1af0f.ctex::
@@ -59,6 +63,6 @@ Standing (48 x 48).png::CompressedTexture2D::4767052747380396930::1778669451::17
 Up_swing (80 x 64).png::CompressedTexture2D::4420062820508374629::1778669451::1778669471::1::::<><><>0<>0<>9841b7df741e796d3ff0478524a7584d<>res://.godot/imported/Up_swing (80 x 64).png-e257920309ec4c29646d1cba70374604.ctex::
 ::res://teste/::1778669451
 node_2d.tscn::PackedScene::2495455005044176495::1778669451::0::1::::<><><>0<>0<><>::uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png<>uid://bflhmqva0u66g::::res://FASES/Diego.tscn
-::res://TileMap/::1778669451
+::res://TileMap/::1778669471
 House (112 x 96).png::CompressedTexture2D::7619964437263045294::1778669451::1778669471::1::::<><><>0<>0<>23ad8be32255b6c28210214426542a8e<>res://.godot/imported/House (112 x 96).png-7e8c49e96b5d08357b9d48ca8de41891.ctex::
 Terrain (16 x 16).png::CompressedTexture2D::4193379283082698843::1778669451::1778669471::1::::<><><>0<>0<>fd29e6e8e22c554cf7a6d00edf2db72a<>res://.godot/imported/Terrain (16 x 16).png-efb2871a9bbc9b39b9eb01ca476934aa.ctex::

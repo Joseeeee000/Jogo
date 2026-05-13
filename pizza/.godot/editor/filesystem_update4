@@ -1,3 +1,5 @@
 res://FASES/fase.tscn
 res://animatable_body_2d.gd
 res://block.mov.tscn
+res://Botões.tscn
+res://block.mov.cima.tscn

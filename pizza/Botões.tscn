@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ciwofef0m4nqs"]
 
 [ext_resource type="Script" uid="uid://bfgi5i4c13pfg" path="res://Control.gd" id="1_d7ej6"]
+[ext_resource type="Texture2D" uid="uid://iug07otsea36" path="res://background/17973903.jpg" id="2_p84va"]
 
 [node name="Control" type="Control" unique_id=1193628153]
 layout_mode = 3
@@ -12,6 +13,7 @@ grow_vertical = 2
 script = ExtResource("1_d7ej6")
 
 [node name="Button 1" type="Button" parent="." unique_id=1436135759]
+self_modulate = Color(1, 0.54509807, 0, 1)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -27,6 +29,7 @@ grow_vertical = 2
 text = "Iniciar"
 
 [node name="Button 2" type="Button" parent="." unique_id=1775107042]
+modulate = Color(0.28235295, 1, 1, 1)
 layout_mode = 1
 anchors_preset = 6
 anchor_left = 1.0
@@ -40,6 +43,16 @@ offset_bottom = 17.0
 grow_horizontal = 0
 grow_vertical = 2
 text = "Sair"
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=720872148]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1361338144]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=1729355167]
+modulate = Color(0.8352941, 1, 1, 1)
+position = Vector2(576, 324)
+scale = Vector2(0.16454794, 0.16195953)
+texture = ExtResource("2_p84va")
 
 [connection signal="pressed" from="Button 1" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button 2" to="." method="_on_button2_pressed"]
