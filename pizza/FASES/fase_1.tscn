@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bflhmqva0u66g" path="res://FASES/Diego.tscn" id="1_srhhd"]
 [ext_resource type="Texture2D" uid="uid://bnb4y7db644wy" path="res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg" id="2_67svw"]
+[ext_resource type="PackedScene" uid="uid://upjuix8mkgcg" path="res://inimi.tscn" id="3_a0jyw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67svw"]
 size = Vector2(3246, 20)
@@ -47,5 +48,8 @@ shape = SubResource("RectangleShape2D_a0jyw")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D2" unique_id=70580537]
 position = Vector2(3255, 300)
 shape = SubResource("RectangleShape2D_a0jyw")
+
+[node name="Node2D" parent="." unique_id=1361735446 instance=ExtResource("3_a0jyw")]
+position = Vector2(179, 453)
 
 [editable path="CharacterBody2D"]
