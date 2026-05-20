@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://ukm0xxwk4wpp"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_6d85x"]
+
+[node name="Control" type="Control" unique_id=148571400]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6d85x")
+
+[node name="Button_1" type="Button" parent="." unique_id=599506020]
+process_mode = 2
+layout_mode = 0
+offset_left = 371.0
+offset_top = 326.0
+offset_right = 500.0
+offset_bottom = 357.0
+text = "Pausar"
+
+[node name="Button_2" type="Button" parent="." unique_id=373818119]
+layout_mode = 0
+offset_left = 712.0
+offset_top = 326.0
+offset_right = 841.0
+offset_bottom = 357.0
+text = "Sair"
