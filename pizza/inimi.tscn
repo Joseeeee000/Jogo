@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://upjuix8mkgcg"]
+
+[ext_resource type="Script" uid="uid://be8mr8klevovb" path="res://character_body_2d.gd" id="1_4cfxd"]
+[ext_resource type="Texture2D" uid="uid://dqnsp37yegesm" path="res://inimigo/inimigo.png" id="2_0ydal"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mc16g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0ydal")
+}],
+"loop": true,
+"name": &"anda",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1djnu"]
+radius = 8.485281
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7tnvd"]
+size = Vector2(55, 47.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e1mkm"]
+size = Vector2(29, 19.5)
+
+[node name="Node2D" type="Node2D" unique_id=1361735446]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1827137220 groups=["inimigo"]]
+script = ExtResource("1_4cfxd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1977005189]
+position = Vector2(109.75001, 65.375)
+scale = Vector2(0.177, 0.19050002)
+sprite_frames = SubResource("SpriteFrames_mc16g")
+animation = &"anda"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1887607594]
+visible = false
+position = Vector2(105, 98)
+shape = SubResource("CircleShape2D_1djnu")
+
+[node name="Morte_player" type="Area2D" parent="CharacterBody2D" unique_id=1244880752]
+visible = false
+
+[node name="Morte_player" type="CollisionShape2D" parent="CharacterBody2D/Morte_player" unique_id=1790427898]
+position = Vector2(107, 81)
+shape = SubResource("RectangleShape2D_7tnvd")
+
+[node name="Fim" type="Area2D" parent="CharacterBody2D" unique_id=1054132231]
+visible = false
+
+[node name="Fim" type="CollisionShape2D" parent="CharacterBody2D/Fim" unique_id=1467230904]
+position = Vector2(107.5, 46.75)
+shape = SubResource("RectangleShape2D_e1mkm")
+
+[connection signal="body_entered" from="CharacterBody2D/Morte_player" to="CharacterBody2D" method="_on_morte_player_body_entered"]
