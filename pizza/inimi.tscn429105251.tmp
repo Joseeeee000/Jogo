@@ -35,20 +35,22 @@ sprite_frames = SubResource("SpriteFrames_mc16g")
 animation = &"anda"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1887607594]
-position = Vector2(42, 98)
+visible = false
+position = Vector2(40, 98)
 shape = SubResource("CircleShape2D_1djnu")
 
 [node name="Morte_player" type="Area2D" parent="CharacterBody2D" unique_id=1244880752]
+visible = false
 
 [node name="Morte_player" type="CollisionShape2D" parent="CharacterBody2D/Morte_player" unique_id=1790427898]
-position = Vector2(44.25, 76.875)
+position = Vector2(42.25, 76.875)
 shape = SubResource("RectangleShape2D_7tnvd")
 
 [node name="Fim" type="Area2D" parent="CharacterBody2D" unique_id=1054132231]
+visible = false
 
 [node name="Fim" type="CollisionShape2D" parent="CharacterBody2D/Fim" unique_id=1467230904]
 position = Vector2(43, 38)
 shape = SubResource("RectangleShape2D_e1mkm")
 
 [connection signal="body_entered" from="CharacterBody2D/Morte_player" to="CharacterBody2D" method="_on_morte_player_body_entered"]
-[connection signal="body_entered" from="CharacterBody2D/Fim" to="CharacterBody2D" method="_on_fim_body_entered"]

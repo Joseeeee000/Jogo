@@ -59,3 +59,20 @@ func _on_morte_player_body_entered(body):
 			return
 
 		body.game_over()
+
+
+
+
+func _on_fim_body_entered(body):
+
+	if body.is_in_group("player"):
+
+		# Player está caindo na cabeça
+		if body.velocity.y > 0:
+
+			morto = true
+
+			# Faz o player quicar
+			body.velocity.y = -250
+
+			queue_free()
