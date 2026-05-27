@@ -1,3 +1,6 @@
-res://FASES/fase_1.tscn
 res://character_body_2d.gd
-res://inimi.tscn
+res://inimi2.gd
+res://FASES/fase_1.tscn
+res://inimi2.tscn
+res://FASES/fase.tscn
+res://FASES/Diego.tscn

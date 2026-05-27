@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://jb71peqph4fy"]
+
+[ext_resource type="Script" uid="uid://br4os76l2rwq8" path="res://inimi2.gd" id="1_u71ao"]
+[ext_resource type="Texture2D" uid="uid://dqnsp37yegesm" path="res://inimigo/inimigo.png" id="2_gvn17"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7b0bs"]
+atlas = ExtResource("2_gvn17")
+region = Rect2(0, 0, 500, 500)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_50pfl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_gvn17")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7b0bs")
+}],
+"loop": true,
+"name": &"anda",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_waxsr"]
+radius = 6.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_213fa"]
+size = Vector2(59, 61)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c6rlq"]
+size = Vector2(50, 5)
+
+[node name="Node2D" type="Node2D" unique_id=1475735663]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1057167310 groups=["inimigo"]]
+script = ExtResource("1_u71ao")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1540761486]
+position = Vector2(45, 47.499996)
+scale = Vector2(0.176, 0.19000001)
+sprite_frames = SubResource("SpriteFrames_50pfl")
+animation = &"anda"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1214500207]
+position = Vector2(42, 82)
+shape = SubResource("CircleShape2D_waxsr")
+
+[node name="player_f" type="Area2D" parent="." unique_id=1654708851]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_f" unique_id=1353018831]
+position = Vector2(42.5, 54.5)
+shape = SubResource("RectangleShape2D_213fa")
+
+[node name="fim" type="Area2D" parent="." unique_id=1525071217]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fim" unique_id=267702786]
+position = Vector2(43, 20.5)
+shape = SubResource("RectangleShape2D_c6rlq")
+
+[connection signal="body_entered" from="player_f" to="CharacterBody2D" method="_on_player_f_body_entered"]
+[connection signal="body_entered" from="fim" to="CharacterBody2D" method="_on_fim_body_entered"]

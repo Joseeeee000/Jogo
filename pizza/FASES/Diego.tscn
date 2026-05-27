@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://bxr2x5qabi8g" path="res://Sprite Pack 7/1 - Diego/Jump (32 x 48).png" id="3_5id3n"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e2gow"]
-radius = 12.0
-height = 50.0
+radius = 15.0
+height = 64.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e2gow"]
 atlas = ExtResource("2_i3ni6")
@@ -109,7 +109,7 @@ collision_mask = 3
 script = ExtResource("1_du4tx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=177183219]
-visible = false
+position = Vector2(0, -5)
 shape = SubResource("CapsuleShape2D_e2gow")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=90565087]
