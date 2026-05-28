@@ -45,17 +45,17 @@ animation = &"anda"
 position = Vector2(42, 82)
 shape = SubResource("CircleShape2D_waxsr")
 
-[node name="player_f" type="Area2D" parent="." unique_id=1654708851]
+[node name="player_f" type="Area2D" parent="CharacterBody2D" unique_id=1654708851]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="player_f" unique_id=1353018831]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/player_f" unique_id=1353018831]
 position = Vector2(42.5, 54.5)
 shape = SubResource("RectangleShape2D_213fa")
 
-[node name="fim" type="Area2D" parent="." unique_id=1525071217]
+[node name="fim" type="Area2D" parent="CharacterBody2D" unique_id=1525071217]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="fim" unique_id=267702786]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/fim" unique_id=267702786]
 position = Vector2(43, 20.5)
 shape = SubResource("RectangleShape2D_c6rlq")
 
-[connection signal="body_entered" from="player_f" to="CharacterBody2D" method="_on_player_f_body_entered"]
-[connection signal="body_entered" from="fim" to="CharacterBody2D" method="_on_fim_body_entered"]
+[connection signal="body_entered" from="CharacterBody2D/player_f" to="CharacterBody2D" method="_on_player_f_body_entered"]
+[connection signal="body_entered" from="CharacterBody2D/fim" to="CharacterBody2D" method="_on_fim_body_entered"]

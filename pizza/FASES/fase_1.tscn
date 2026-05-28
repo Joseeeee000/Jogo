@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bflhmqva0u66g" path="res://FASES/Diego.tscn" id="1_srhhd"]
 [ext_resource type="Texture2D" uid="uid://bnb4y7db644wy" path="res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg" id="2_67svw"]
-[ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://inimi2.tscn" id="4_pynag"]
+[ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://FASES/inimi2.tscn" id="4_pynag"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67svw"]
 size = Vector2(3246, 20)

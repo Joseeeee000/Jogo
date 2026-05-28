@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dgtfx3l0qvtgo" path="res://TileMap/House (112 x 96).png" id="5_2sn0k"]
 [ext_resource type="PackedScene" uid="uid://dnpwwp3netfm3" path="res://block.mov.tscn" id="6_e8rbh"]
 [ext_resource type="PackedScene" uid="uid://4yi5wtg5w4c4" path="res://block.mov.cima.tscn" id="7_malsh"]
-[ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://inimi2.tscn" id="8_c2vv3"]
+[ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://FASES/inimi2.tscn" id="8_c2vv3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4o364"]
 size = Vector2(6517.75, 31)
@@ -221,10 +221,10 @@ position = Vector2(1355, 263)
 position = Vector2(1708, 72)
 
 [node name="Node2D4" parent="." unique_id=717642953 instance=ExtResource("8_c2vv3")]
-position = Vector2(3028, -138)
+position = Vector2(3030, -138)
 
 [node name="Node2D5" parent="." unique_id=1475735663 instance=ExtResource("8_c2vv3")]
 position = Vector2(1876, -120)
 
 [node name="Node2D" parent="." unique_id=510612222 instance=ExtResource("8_c2vv3")]
-position = Vector2(615, 278)
+position = Vector2(616, 275)
