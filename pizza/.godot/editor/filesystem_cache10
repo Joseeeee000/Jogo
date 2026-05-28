@@ -1,8 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779963899
+::res://::1779971949
 animatable_body_2d.gd::GDScript::8278209221588200973::1778672364::0::1::::<>AnimatableBody2D<><>0<>0<><>::
 block.mov.cima.tscn::PackedScene::2085562026538240357::1778681469::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
-block.mov.tscn::PackedScene::8104058577692925376::1778681466::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
+block.mov.tscn::PackedScene::8104058577692925376::1779970311::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
 Botões.tscn::PackedScene::5380627612918530926::1778756171::0::1::::<><><>0<>0<><>::res://Control.gd<>uid://iug07otsea36::::res://background/17973903.jpg
 character_body_2d.gd::GDScript::2736061235763360203::1779878041::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Control.gd::GDScript::1943363256181024629::1778756171::0::1::::<>Control<><>0<>0<><>::
@@ -16,14 +16,14 @@ _Complete_static_BG_(288 x 208).png::CompressedTexture2D::1714962508541746341::1
 17973903.jpg::CompressedTexture2D::603208954251627511::1778679788::1778679794::1::::<><><>0<>0<>c85f28ac823cecf98141eac4ce05967e<>res://.godot/imported/17973903.jpg-f2e8ed5fb5561650a359055435f8f510.ctex::
 background.jpg::CompressedTexture2D::7446568120349103876::1778669451::1778669472::1::::<><><>0<>0<>4b85687fcd19d204742b2fc7ddb01ccc<>res://.godot/imported/background.jpg-f5a391353afe0b2edd1a4c9db31b7d83.ctex::
 Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg::CompressedTexture2D::3302745366055180592::1778669451::1778669471::1::::<><><>0<>0<>fea3969e1af89cd6498301f8155fe1f8<>res://.godot/imported/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg-f8bf9cf8e93fb2cc80064982b5020f3d.ctex::
-::res://FASES/::1779897932
+::res://FASES/::1779967899
 area_2d.gd::GDScript::8855814130740257252::1778669451::0::1::::<>Area2D<><>0<>0<><>::
 area_2d.tscn::PackedScene::3174821958986173636::1778669451::0::1::::<><><>0<>0<><>::uid://dyf272n0osl4o::::res://FASES/area_2d.gd
-Diego.gd::GDScript::9072098879764109659::1779293659::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Diego.tscn::PackedScene::2760520378502870928::1779886561::0::1::::<><><>0<>0<><>::uid://d2iue4om8tpwl::::res://FASES/Diego.gd<>uid://dbgi4qhdwiluw::::res://Sprite Pack 7/1 - Diego/Idle (32 x 48).png<>uid://bpqwole606ock::::res://Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://bxr2x5qabi8g::::res://Sprite Pack 7/1 - Diego/Jump (32 x 48).png
+Diego.gd::GDScript::9072098879764109659::1779967899::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Diego.tscn::PackedScene::2760520378502870928::1779967106::0::1::::<><><>0<>0<><>::uid://d2iue4om8tpwl::::res://FASES/Diego.gd<>uid://dbgi4qhdwiluw::::res://Sprite Pack 7/1 - Diego/Idle (32 x 48).png<>uid://bpqwole606ock::::res://Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://bxr2x5qabi8g::::res://Sprite Pack 7/1 - Diego/Jump (32 x 48).png
 fase.tscn::PackedScene::5341355331614351488::1779897932::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://dedf5hwwtkbq7::::res://background/background.jpg<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png<>uid://blh54baow57m3::::res://FASES/area_2d.tscn<>uid://dgtfx3l0qvtgo::::res://TileMap/House (112 x 96).png<>uid://dnpwwp3netfm3::::res://block.mov.tscn<>uid://4yi5wtg5w4c4::::res://block.mov.cima.tscn<>uid://jb71peqph4fy::::res://inimi2.tscn
 fase_1.tscn::PackedScene::6869379956900710580::1779897932::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://bnb4y7db644wy::::res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg<>uid://jb71peqph4fy::::res://inimi2.tscn
-inimi2.tscn::PackedScene::635754139683195870::1779897580::0::1::::<><><>0<>0<><>::uid://br4os76l2rwq8::::res://inimi2.gd<>uid://dqnsp37yegesm::::res://inimigo/inimigo.png
+inimi2.tscn::PackedScene::635754139683195870::1779965218::0::1::::<><><>0<>0<><>::uid://br4os76l2rwq8::::res://inimi2.gd<>uid://dqnsp37yegesm::::res://inimigo/inimigo.png
 ::res://inimigo/::1779278876
 inimigo.png::CompressedTexture2D::8310241674052550128::1779278845::1779278876::1::::<><><>0<>0<>c696d351d449cb5b126d04efd1a2d98f<>res://.godot/imported/inimigo.png-2675052c43b3b18859e15db390936161.ctex::
 ::res://Sprite Pack 7/::1779277987

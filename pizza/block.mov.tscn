@@ -56,7 +56,6 @@ move_speed = 100.0
 distance = 400
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=289819813]
-visible = false
 position = Vector2(2047.25, 903)
 shape = SubResource("RectangleShape2D_hicun")
 
