@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779971949
+::res://::1780500893
 animatable_body_2d.gd::GDScript::8278209221588200973::1778672364::0::1::::<>AnimatableBody2D<><>0<>0<><>::
 block.mov.cima.tscn::PackedScene::2085562026538240357::1778681469::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
 block.mov.tscn::PackedScene::8104058577692925376::1779970311::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
