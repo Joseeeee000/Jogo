@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://cidnlvjhil0mm"]
 
+[ext_resource type="Script" uid="uid://dc3ilnfc0mfn7" path="res://FASES/fase.gd" id="1_niikn"]
 [ext_resource type="PackedScene" uid="uid://bflhmqva0u66g" path="res://FASES/Diego.tscn" id="1_uvh7o"]
 [ext_resource type="Texture2D" uid="uid://dedf5hwwtkbq7" path="res://background/background.jpg" id="2_2sn0k"]
 [ext_resource type="Texture2D" uid="uid://b00klx20766d8" path="res://TileMap/Terrain (16 x 16).png" id="3_e8rbh"]
@@ -8,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dnpwwp3netfm3" path="res://block.mov.tscn" id="6_e8rbh"]
 [ext_resource type="PackedScene" uid="uid://4yi5wtg5w4c4" path="res://block.mov.cima.tscn" id="7_malsh"]
 [ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://FASES/inimi2.tscn" id="8_c2vv3"]
+[ext_resource type="PackedScene" uid="uid://b6k1ax3owhh6f" path="res://musica.tscn" id="9_b0qr0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4o364"]
 size = Vector2(6517.75, 31)
@@ -151,6 +153,7 @@ physics_layer_0/collision_layer = 1
 sources/2 = SubResource("TileSetAtlasSource_2sn0k")
 
 [node name="Node2D" type="Node2D" unique_id=1653398752]
+script = ExtResource("1_niikn")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1660434548]
 visible = false
@@ -228,3 +231,5 @@ position = Vector2(1876, -120)
 
 [node name="Node2D" parent="." unique_id=510612222 instance=ExtResource("8_c2vv3")]
 position = Vector2(616, 275)
+
+[node name="musica" parent="." unique_id=1485107514 instance=ExtResource("9_b0qr0")]
