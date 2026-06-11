@@ -75,7 +75,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_d4t6f")
 }],
 "loop": true,
-"name": &"anda",
+"name": &"andando",
 "speed": 15.0
 }, {
 "frames": [{
@@ -121,5 +121,5 @@ limit_bottom = 650
 position = Vector2(4, -5.0000005)
 scale = Vector2(1.21875, 1.2708334)
 sprite_frames = SubResource("SpriteFrames_acehn")
-animation = &"pula"
+animation = &"andando"
 autoplay = "parado"

@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bflhmqva0u66g" path="res://FASES/Diego.tscn" id="1_srhhd"]
 [ext_resource type="Texture2D" uid="uid://bnb4y7db644wy" path="res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg" id="2_67svw"]
+[ext_resource type="PackedScene" uid="uid://b6k1ax3owhh6f" path="res://musica.tscn" id="4_oh4lf"]
 [ext_resource type="PackedScene" uid="uid://jb71peqph4fy" path="res://FASES/inimi2.tscn" id="4_pynag"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67svw"]
@@ -51,5 +52,7 @@ shape = SubResource("RectangleShape2D_a0jyw")
 
 [node name="Node2D2" parent="." unique_id=1475735663 instance=ExtResource("4_pynag")]
 position = Vector2(597, 490)
+
+[node name="musica" parent="." unique_id=1485107514 instance=ExtResource("4_oh4lf")]
 
 [editable path="CharacterBody2D"]

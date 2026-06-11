@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1781109644
+::res://::1781173631
 animatable_body_2d.gd::GDScript::8278209221588200973::1781089931::0::1::::<>AnimatableBody2D<><>0<>0<><>::
 block.mov.cima.tscn::PackedScene::2085562026538240357::1781089931::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
 block.mov.tscn::PackedScene::8104058577692925376::1781089931::0::1::::<><><>0<>0<><>::uid://dp7a5qi2ymmtx::::res://animatable_body_2d.gd<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png
@@ -10,9 +10,9 @@ diego.gd::GDScript::5786324481036226816::1781089931::0::1::::<>CharacterBody2D<>
 icon.svg::CompressedTexture2D::5435431783351291684::1781089931::1781089968::1::::<><><>0<>0<>78d389abce5cf86667b46708cd7a0076<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 inimi2.gd::GDScript::3640381891769110129::1781089931::0::1::::<>CharacterBody2D<><>0<>0<><>::
 inimi.tscn::PackedScene::1435325165117648210::1781089931::0::1::::<><><>0<>0<><>::uid://be8mr8klevovb::::res://character_body_2d.gd<>uid://dqnsp37yegesm::::res://inimigo/inimigo.png
-Pausa e sair.tscn::PackedScene::1425195143643728749::1781089931::0::1::::<><><>0<>0<><>::res://control.gd
-musica.gd::GDScript::141564596380947713::1781109644::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
+musica.gd::GDScript::141564596380947713::1781110051::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 musica.tscn::PackedScene::4584498507781987351::1781109143::0::1::::<><><>0<>0<><>::res://musica/goofy ahh song - zarebi (youtube).mp3<>uid://catsv0hruosv::::res://musica.gd
+Pausa e sair.tscn::PackedScene::1425195143643728749::1781089931::0::1::::<><><>0<>0<><>::res://control.gd
 ::res://background/::1781089974
 _Complete_static_BG_(288 x 208).png::CompressedTexture2D::1714962508541746341::1781089931::1781089968::1::::<><><>0<>0<>d23a518489a704232477a3e7db1c4843<>res://.godot/imported/_Complete_static_BG_(288 x 208).png-b8fd8d57210c9c19178b0f9e4370327d.ctex::
 17973903.jpg::CompressedTexture2D::603208954251627511::1781089931::1781089974::1::::<><><>0<>0<>c85f28ac823cecf98141eac4ce05967e<>res://.godot/imported/17973903.jpg-f2e8ed5fb5561650a359055435f8f510.ctex::
@@ -23,13 +23,13 @@ area_2d.gd::GDScript::8855814130740257252::1781089931::0::1::::<>Area2D<><>0<>0<
 area_2d.tscn::PackedScene::3174821958986173636::1781089931::0::1::::<><><>0<>0<><>::uid://dyf272n0osl4o::::res://FASES/area_2d.gd
 Diego.gd::GDScript::9072098879764109659::1781089931::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Diego.tscn::PackedScene::2760520378502870928::1781089931::0::1::::<><><>0<>0<><>::uid://d2iue4om8tpwl::::res://FASES/Diego.gd<>uid://dbgi4qhdwiluw::::res://Sprite Pack 7/1 - Diego/Idle (32 x 48).png<>uid://bpqwole606ock::::res://Sprite Pack 7/1 - Diego/Running (32 x 48).png<>uid://bxr2x5qabi8g::::res://Sprite Pack 7/1 - Diego/Jump (32 x 48).png
+fase.gd::GDScript::7357948385796458334::1781109619::0::1::::<>Node2D<><>0<>0<><>::
 fase.tscn::PackedScene::5341355331614351488::1781109619::0::1::::<><><>0<>0<><>::uid://dc3ilnfc0mfn7::::res://FASES/fase.gd<>uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://dedf5hwwtkbq7::::res://background/background.jpg<>uid://b00klx20766d8::::res://TileMap/Terrain (16 x 16).png<>uid://blh54baow57m3::::res://FASES/area_2d.tscn<>uid://dgtfx3l0qvtgo::::res://TileMap/House (112 x 96).png<>uid://dnpwwp3netfm3::::res://block.mov.tscn<>uid://4yi5wtg5w4c4::::res://block.mov.cima.tscn<>uid://jb71peqph4fy::::res://FASES/inimi2.tscn<>uid://b6k1ax3owhh6f::::res://musica.tscn
 fase_1.tscn::PackedScene::6869379956900710580::1781109271::0::1::::<><><>0<>0<><>::uid://bflhmqva0u66g::::res://FASES/Diego.tscn<>uid://bnb4y7db644wy::::res://background/Search Projects __ Photos, videos, logos, illustrations and branding (1).jpg<>uid://jb71peqph4fy::::res://FASES/inimi2.tscn
 inimi2.tscn::PackedScene::635754139683195870::1781089931::0::1::::<><><>0<>0<><>::uid://br4os76l2rwq8::::res://inimi2.gd<>uid://dqnsp37yegesm::::res://inimigo/inimigo.png
-fase.gd::GDScript::7357948385796458334::1781109619::0::1::::<>Node2D<><>0<>0<><>::
 ::res://inimigo/::1781089968
 inimigo.png::CompressedTexture2D::8310241674052550128::1781089931::1781089968::1::::<><><>0<>0<>c696d351d449cb5b126d04efd1a2d98f<>res://.godot/imported/inimigo.png-2675052c43b3b18859e15db390936161.ctex::
-::res://musica/::1781110045
+::res://musica/::1781110047
 musga.mp3::AudioStreamMP3::6263260654948986434::1781108822::1781109126::1::::<><><>0<>0<>de1f497733cb1d42278f5e4b57931261<>res://.godot/imported/musga.mp3-5406e860927c95bcb6ca9082b2aba94b.mp3str::
 vida.mp3::AudioStreamMP3::6859589047149812859::1781109991::1781110047::1::::<><><>0<>0<>e2293bb5fd087fbbe6c0aafd92859c52<>res://.godot/imported/vida.mp3-b393f4bb2f98ed37de9648de0450d444.mp3str::
 ::res://Sprite Pack 7/::1781089931

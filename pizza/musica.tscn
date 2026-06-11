@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b6k1ax3owhh6f"]
 
-[ext_resource type="AudioStream" path="res://musica/goofy ahh song - zarebi (youtube).mp3" id="1_fbscl"]
+[ext_resource type="AudioStream" uid="uid://c4y3ounppb2hj" path="res://musica/vida.mp3" id="1_fbscl"]
 [ext_resource type="Script" uid="uid://catsv0hruosv" path="res://musica.gd" id="1_u4ygf"]
 
 [node name="musica" type="AudioStreamPlayer" unique_id=1485107514]
